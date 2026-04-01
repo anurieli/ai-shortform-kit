@@ -1,0 +1,16 @@
+# Inspiration Creators
+# Managed by /add-creator. These inform structural inspiration, not voice.
+
+creators: []
+
+# Trending formats discovered by /research-trends
+format_trends: []
+
+research_instructions: |
+  When researching for a script:
+  1. Check which creators use formats relevant to the topic
+  2. Study hook patterns for structural inspiration (adapt, never copy)
+  3. Check format_trends for currently trending structures
+  4. Read playbook.md for accumulated niche knowledge
+  5. The user's persona and brand always come first
+  6. Creator inspiration informs STRUCTURE, not voice

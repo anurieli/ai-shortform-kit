@@ -1,0 +1,17 @@
+# Content Configuration
+# Your platform, niche, and posting preferences.
+
+platform:
+  primary: ""          # tiktok, instagram-reels, or youtube-shorts
+  secondary: []        # other platforms you cross-post to
+
+niche: ""              # your content niche (e.g., "business/entrepreneurship", "fitness/wellness")
+
+posting_frequency:
+  posts_per_week: 5
+  preferred_days: []   # e.g., [monday, wednesday, friday]
+
+preferred_length:
+  min_seconds: 30
+  max_seconds: 60
+  sweet_spot: 45       # your default target duration
