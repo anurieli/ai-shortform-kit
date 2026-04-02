@@ -1,6 +1,8 @@
 # ai-shortform-kit
 
-A personal short-form video script system powered by Claude. It learns your on-camera persona, understands your brand, and writes scripts that sound like you — not like AI.
+**For creators who want to go from an idea in their head to a ready-to-film script for TikTok, Instagram Reels, or YouTube Shorts.** You know what you want to talk about. You just need it structured — with a hook that stops the scroll, the right pacing, and visual cues so you can grab your phone and film.
+
+This kit captures your voice and on-camera style, then lets you go from "I want to make a video about X" to a complete script with timestamps, text overlays, and a filming guide. You review it, tweak what you want, and hit record.
 
 ---
 
