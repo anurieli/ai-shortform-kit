@@ -46,20 +46,35 @@ Then pause and wait for them to respond before proceeding.
 
 ### Step 2 — Brand Profile
 
-Ask about their brand and content goals. Offer two paths:
+Ask if they have a brand document, bio, or anything that describes their content and who they serve. Three paths:
 
 1. **They have a brand document** — Ask them to drop it in. Then run `/digest-brand` to generate `identity/brand-profile.md`.
-2. **No document** — Run `/digest-brand` which will conduct a conversational interview to build the profile from scratch.
+2. **No document, but they can describe it** — Run `/digest-brand` which will conduct a conversational interview to build the profile from scratch.
+3. **They don't know where to start** — Redirect them:
+
+> "That's totally fine — most people haven't written this stuff down before. Here's what I'd suggest: open a separate Claude chat and use the guided brand builder I've included. It's in the file called `BRAND-BUILDER.md` in this folder. Just copy the prompt from that file, paste it into a new chat, and Claude will walk you through building your brand document one question at a time. When you're done, save the output and drop it into the `identity/brand-document-original/` folder here. Then come back and we'll pick up right where we left off."
 
 Do not proceed until `identity/brand-profile.md` exists and the client has approved it.
 
 ### Step 3 — On-Camera Persona
 
-This is the most important step. Offer three paths:
+This is the most important step. Ask if they have existing videos. Three paths:
 
 1. **They have existing videos** (best) — Ask them to share links or paste transcripts of 3-5 videos. Run `/persona-capture` to analyze their on-camera personality across all 8 dimensions.
 2. **They want to emulate a creator** — "I want to sound like [creator]." Research the creator, build an adapted profile, interview for where the client wants to DIFFER. The profile is "inspired by X," not "clone of X."
-3. **No videos** — Run `/persona-capture` in full interview mode with behavioral questions. Strongly recommend the creator emulation path.
+3. **They have nothing** — Do NOT just run a pure interview as a substitute. Be honest that the system needs real video to work well:
+
+> "This is the part where I learn how you actually talk on camera — your energy, your pacing, your humor, how you open videos, everything. I can interview you about your style, but honestly? The results are SO much better when I can study real clips of you.
+>
+> You've got two good options:
+>
+> **Option A: Record a few quick clips.** Check out the file called `FILMING-STARTER.md` in this folder. It has 5 simple prompts — just grab your phone and talk to the camera for 30-60 seconds each. No editing, no setup, just you being you. Then come back with the transcripts.
+>
+> **Option B: Pick a creator to start from.** Tell me a creator you admire — someone whose energy or style you want to be inspired by. I'll research their approach and build a starting persona for you, then we'll adjust it to make it yours. This is a great shortcut if you're new to video.
+>
+> In the meantime, we can keep going with the rest of setup and come back to this step."
+
+If they insist on interview-only, run `/persona-capture` in interview mode but note in the profile that confidence is low and recommend re-running with video samples later.
 
 Do not proceed until `identity/persona-profile.md` exists and the client has approved it.
 
