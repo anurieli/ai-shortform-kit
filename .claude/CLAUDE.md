@@ -58,23 +58,23 @@ Do not proceed until `identity/brand-profile.md` exists and the client has appro
 
 ### Step 3 — On-Camera Persona
 
-This is the most important step. Ask if they have existing videos. Three paths:
+This is the most important step. Ask if they have any writing samples or existing scripts — tweets, blog posts, social captions, emails, anything in their natural voice. Three paths:
 
-1. **They have existing videos** (best) — Ask them to share links or paste transcripts of 3-5 videos. Run `/persona-capture` to analyze their on-camera personality across all 8 dimensions.
-2. **They want to emulate a creator** — "I want to sound like [creator]." Research the creator, build an adapted profile, interview for where the client wants to DIFFER. The profile is "inspired by X," not "clone of X."
-3. **They have nothing** — Do NOT just run a pure interview as a substitute. Be honest that the system needs real video to work well:
+1. **They have writing samples or scripts** (best) — Ask them to paste them in or drop files in `identity/video-samples/`. Run `/persona-capture` to analyze their communication style across all 8 dimensions.
+2. **They want to emulate a creator** — "I want to sound like [creator]." Research the creator, build an adapted profile, interview for where the client wants to DIFFER. The profile is "inspired by X," not "clone of X." This is a great shortcut for people new to content.
+3. **They have nothing** — Do NOT just run a pure interview as a substitute. Be honest that the system needs real writing to work well:
 
-> "This is the part where I learn how you actually talk on camera — your energy, your pacing, your humor, how you open videos, everything. I can interview you about your style, but honestly? The results are SO much better when I can study real clips of you.
+> "This is the part where I learn how you actually communicate — your energy, your vocabulary, your humor, how you explain things, how you'd open a video. I can interview you about your style, but honestly? The results are so much better when I can study real writing in your voice.
 >
 > You've got two good options:
 >
-> **Option A: Record a few quick clips.** Check out the file called `FILMING-STARTER.md` in this folder. It has 5 simple prompts — just grab your phone and talk to the camera for 30-60 seconds each. No editing, no setup, just you being you. Then come back with the transcripts.
+> **Option A: Write a few things first.** Check out the file called `WRITING-STARTER.md` in this folder. It has 5 quick prompts — each takes about 5-10 minutes. Write them the way you'd actually talk. Then come back, share them, and I'll build your persona from those.
 >
-> **Option B: Pick a creator to start from.** Tell me a creator you admire — someone whose energy or style you want to be inspired by. I'll research their approach and build a starting persona for you, then we'll adjust it to make it yours. This is a great shortcut if you're new to video.
+> **Option B: Pick a creator to start from.** Tell me a creator you admire — someone whose energy or style you want to be inspired by. I'll research their approach and build a starting persona for you, then we'll adjust it to make it yours. This is a great shortcut if you're new to content.
 >
 > In the meantime, we can keep going with the rest of setup and come back to this step."
 
-If they insist on interview-only, run `/persona-capture` in interview mode but note in the profile that confidence is low and recommend re-running with video samples later.
+If they insist on interview-only, run `/persona-capture` in interview mode but note in the profile that confidence is low and recommend re-running with writing samples later.
 
 Do not proceed until `identity/persona-profile.md` exists and the client has approved it.
 

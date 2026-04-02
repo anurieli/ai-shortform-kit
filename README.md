@@ -149,8 +149,8 @@ ai-shortform-kit/
 **What if I don't have a brand document?**
 No problem. There's a file called `BRAND-BUILDER.md` in this folder with a guided prompt. Copy it into any Claude chat, and Claude will interview you and produce a brand document you can bring back here.
 
-**What if I have no videos at all?**
-Two good options. First: check out `FILMING-STARTER.md` — it has 5 quick recording prompts (30-60 seconds each, phone is fine). Second: pick a creator you admire and tell Claude "I want to sound like [them]." Claude will build a persona inspired by their style, adapted to you.
+**What if I have no writing samples or scripts?**
+Two good options. First: check out `WRITING-STARTER.md` — it has 5 quick writing prompts (5-10 minutes each) to capture your natural voice. Second: pick a creator you admire and tell Claude "I want to sound like [them]." Claude will build a persona inspired by their style, adapted to you.
 
 **Do I need to use the exact command names?**
 No. You can say "write a script about productivity," "what's trending," or "study how Hormozi makes content." Claude understands natural language.
