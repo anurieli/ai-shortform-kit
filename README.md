@@ -84,6 +84,28 @@ Claude handles the rest.
 
 ---
 
+## How it works
+
+When you say "write a script about X," here's what actually happens:
+
+1. **Claude reads your files.** It loads your brand profile, persona profile, creators file, and content playbook. This is how it knows who you are, how you talk on camera, and what's working on your platform right now.
+
+2. **It picks the right format.** Based on your topic, it recommends a template — myth-bust, listicle, storytime, tutorial, etc. You can pick a different one or let Claude decide.
+
+3. **It writes 5 hooks.** Five ways to open your video in under 3 seconds — a bold claim, a "you" statement, a question, a mid-story drop, and a pattern interrupt. You pick the one that feels most like you.
+
+4. **It drafts the full script.** Every section gets timestamps, visual direction (camera angles, B-roll), text overlay cues, tone notes, and your spoken words in quotes. It checks word count against your target duration (~2.5 words per second).
+
+5. **It self-edits before you see it.** Checks against your persona (does this sound like them on camera?), your brand (on-message?), and retention mechanics (does the hook land in 1 second? pattern interrupt every 8-12 seconds? 7-second cliff handled?).
+
+6. **It generates a filming guide.** Shot list with timestamps, text overlay specs, editing notes, and posting recommendations (best times, hashtags, caption text).
+
+7. **You review and iterate.** Claude presents the script, you give feedback, it revises. Recurring corrections get saved to your persona profile so future scripts improve.
+
+The whole thing takes a few minutes. You get a script ready to film.
+
+---
+
 ## Keeping it fresh
 
 Your brand and persona aren't set in stone. Update them anytime through a simple conversation:
